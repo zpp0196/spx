@@ -1,0 +1,38 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreference
+        app:iconSpaceReserved="false"
+        app:key="@string/pref_plugin_switch_key"
+        app:title="@string/pref_plugin_switch_title" />
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/pref_target_app_category_title">
+
+        <me.zpp0196.spx.ui.AppSelectListPreference
+            app:iconSpaceReserved="false"
+            app:key="@string/pref_target_app_select_key"
+            app:title="@string/pref_target_app_select_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="@string/pref_target_app_launch_key"
+            app:summary="@string/pref_target_app_launch_summary"
+            app:title="@string/pref_target_app_launch_title" />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/pref_tv_category_title">
+
+        <EditTextPreference
+            app:iconSpaceReserved="false"
+            app:key="@string/pref_tv_set_text_key"
+            app:title="@string/pref_tv_set_text_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

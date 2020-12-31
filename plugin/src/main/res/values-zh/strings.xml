@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="activity_settings_title">设置</string>
+
+    <string name="app_name">spx</string>
+    <string name="app_xposed_description">跨应用共享配置 Demo</string>
+
+    <string name="menu_about">关于</string>
+
+    <string name="pref_plugin_switch_title">插件开关</string>
+    <string name="pref_target_app_category_title">目标应用</string>
+    <string name="pref_target_app_launch_summary">仅用于更新配置！</string>
+    <string name="pref_target_app_launch_title">启动目标应用</string>
+    <string name="pref_target_app_select_title">选择目标应用</string>
+
+    <string name="prefs_compat_button_settings">去设置</string>
+    <string name="prefs_compat_tip_message">「%s」插件配置已更新，请手动在设置界面停止「%s」，并且下次启动请从启动器启动！</string>
+    <string name="prefs_compat_tip_title">提示</string>
+</resources>

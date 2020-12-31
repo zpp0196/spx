@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="about_message" translatable="false">https://github.com/zpp0196/spx</string>
+
+    <string name="activity_settings_title">Settings</string>
+
+    <string name="app_name">spx</string>
+    <string name="app_xposed_description">Shared Preferences Demo</string>
+
+    <string name="github" translatable="false">GitHub: </string>
+
+    <string name="menu_about">About</string>
+
+    <string name="pref_plugin_switch_key" translatable="false">plugin_switch</string>
+    <string name="pref_plugin_switch_title">Plugin Switch</string>
+    <string name="pref_target_app_category_title">Target App</string>
+    <string name="pref_target_app_launch_key" translatable="false">launch_target_app</string>
+    <string name="pref_target_app_launch_summary">Only used to update preferences!</string>
+    <string name="pref_target_app_launch_title">Launch Target App</string>
+    <string name="pref_target_app_select_key" translatable="false">target_app</string>
+    <string name="pref_target_app_select_title">Select Target App</string>
+    <string name="pref_tv_category_title" translatable="false">TextView</string>
+    <string name="pref_tv_set_text_key" translatable="false">tv_set_text</string>
+    <string name="pref_tv_set_text_title" translatable="false">setText</string>
+
+    <string name="prefs_compat_button_settings">Go Settings</string>
+    <string name="prefs_compat_tip_message">The \"%s\" plug-in configuration has been updated, please stop \"%s\" in the Settings interface manually, and please start from the launcher next time!</string>
+    <string name="prefs_compat_tip_title">Tips</string>
+</resources>
